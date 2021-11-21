@@ -16,6 +16,7 @@ You can add more to this like automatically deleting the infected files, moving 
 ### Install ClamAV
 
 ```
+
 sudo apt install clamav clamav-daemon
 
 ```
@@ -23,6 +24,7 @@ sudo apt install clamav clamav-daemon
 ### Setup this script
 
 ```
+
 git clone --depth=1 https://github.com/xerohackcom/clamav-autorunner-cron.git && sudo chmod +x avscan.sh
 
 ```
@@ -30,6 +32,7 @@ git clone --depth=1 https://github.com/xerohackcom/clamav-autorunner-cron.git &&
 ### Using the script
 
 ```
+
 sudo ./avscan.sh
 
 ```
